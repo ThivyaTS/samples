@@ -5,20 +5,9 @@ package samples.demo;
  */
 public class Location {
 	
-	private String name;
 	private String city;
 	private int poscode;
 	private String state;
-	
-	public void setName(String name)
-	{
-		this.name=name;
-	}
-
-	public String getName()
-	{
-		return name;
-	}
 	
 	public void setCity(String city)
 	{
